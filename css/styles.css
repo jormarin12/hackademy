@@ -45,7 +45,7 @@ body{
 }
 .heroe{
     width: 100%;
-    min-height: 10vh;
+    min-height: 8vh;
     background: linear-gradient(180deg, #30353B 0%, #1A1B1F 100%);
     position: fixed;
 }
