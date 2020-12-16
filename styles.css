@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: fantasy;
+}
+nav{
+    background: brown;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 40px;
+    padding: 0 20px;
+    font-weight: bold;
+}
+.nav ul{
+    float:right;
+    margin-right: 20px;
+}
+.topnav{
+    display: flex;
+    float:right;
+    margin-right: 10px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 0px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
