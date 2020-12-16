@@ -193,7 +193,8 @@ body{
 }
 .informacion{
     text-align: center;
-    background-color: #fff;
+    
+    font-weight: 700;
    
 }
 
